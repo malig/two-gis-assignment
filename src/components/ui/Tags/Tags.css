@@ -1,0 +1,15 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tags__tag {
+    background: #ddd;
+    padding: 5px;
+}
+
+.tags__tag:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

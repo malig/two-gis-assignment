@@ -1,0 +1,24 @@
+.book-list {
+    padding: 15px 0 0 0;
+    border: 1px solid #999;
+}
+
+.book-list > * {
+    border-bottom: 1px solid #999;
+    margin-bottom: -1px;
+}
+
+.book-list__filter {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    white-space: nowrap;
+    gap: 5px;
+}
+
+.book-list__empty {
+    text-align: center;
+    padding: 25%;
+    font-size: 18px;
+    font-weight: 300;
+}

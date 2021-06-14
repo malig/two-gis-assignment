@@ -1,0 +1,17 @@
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    border: 0;
+    white-space: nowrap;
+}
+
+.btn__text {
+    text-decoration: underline #000;
+    margin-right: 3px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
